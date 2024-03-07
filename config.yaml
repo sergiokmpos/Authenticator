@@ -1,19 +1,19 @@
-cookie:
-  expiry_days: 30
-  key: some_signature_key
-  name: some_cookie_name
 credentials:
   usernames:
     jsmith:
       email: jsmith@gmail.com
-      logged_in: true
+      logged_in: False # Will be managed automatically
       name: John Smith
-      password: $2b$12$5qeY31waCSn7Rh0t0z7z4ulV2g1XwZt4kTpqQ79o3aXJUDPge/4py
+      password: abc # Will be hashed automatically
     rbriggs:
       email: rbriggs@gmail.com
-      logged_in: false
+      logged_in: False # Will be managed automatically
       name: Rebecca Briggs
-      password: $2b$12$gnBrAVZhmeFhMtbbjkB2c.GpZJDH4r7doK23/fGDmoQR5bZn7aHWK
+      password: def # Will be hashed automatically
+cookie:
+  expiry_days: 30
+  key: some_signature_key # Must be string
+  name: some_cookie_name
 preauthorized:
   emails:
   - melsby@gmail.com

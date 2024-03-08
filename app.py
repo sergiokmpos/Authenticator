@@ -7,7 +7,13 @@ from yaml.loader import SafeLoader
 
 idiomas = ['Português', 'Inglês', 'Español']
 
-idioma = st.selectbox('🗺️ Idioma/Language', idiomas)
+# Using object notation
+idioma = st.sidebar.selectbox(
+    "'🗺️ Idioma/Language'",
+    ('Português', 'Inglês', 'Español')
+)
+
+#idioma = st.selectbox('🗺️ Idioma/Language', idiomas)
 
 
 # Cria o widget de redefinição de senha
@@ -45,3 +51,12 @@ elif st.session_state["authentication_status"] is False:
     st.error('Usuario ou senha incorreto')
 elif st.session_state["authentication_status"] is None:
     st.warning('Please enter your username and password')
+
+
+
+# Using "with" notation
+with st.sidebar:
+    add_radio = st.radio(
+        "Choose a shipping method",
+        ("Standard (5-15 days)", "Express (2-5 days)")
+    )

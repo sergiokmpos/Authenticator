@@ -1,0 +1,14 @@
+{
+    "titulo": {
+      "pt": "Bem-vindo ao Meu Aplicativo",
+      "en": "Welcome to My App"
+    },
+
+    "descricao": {
+      "pt": "Este é um exemplo de aplicativo Streamlit.",
+      "en": "This is an example Streamlit app."
+    }
+  
+
+}
+  

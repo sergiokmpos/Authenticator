@@ -1,13 +1,27 @@
 {
     "titulo": {
-      "pt": "Bem-vindo ao Meu Aplicativo",
-      "en": "Welcome to My App"
+      "Português": "Bem-vindo ao Meu Aplicativo",
+      "Inglês": "Welcome to My App"
     },
 
     "descricao": {
       "pt": "Este é um exemplo de aplicativo Streamlit.",
       "en": "This is an example Streamlit app."
-    }
+    },
+
+    "Alerta_login": {
+      "pt": "Entre com seu usuario e senha.",
+      "en": "Please enter your username and password."
+    },
+
+    "title": {
+      "en": "Manufacture Line Planner",
+      "pt": "Planejador de Linha de Produção"
+  },
+  "subtitle": {
+      "en": "Welcome!",
+      "pt": "Seja Bem-vindo!"
+  }
   
 
 }
